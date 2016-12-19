@@ -95,4 +95,5 @@ $signPackage = $jssdk->GetSignPackage();
         'openCard'
       ]
   });
+</script>
 </html>
