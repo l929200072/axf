@@ -18,7 +18,6 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 				success:function(data){
 				//引出传回参数
 				var a = data;
-				console.log(a);
 				//加载图片轮播模板
 				
 
@@ -106,7 +105,6 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 						;(function(){
 						var modle = $("#rDivFirst");
 						var data = a.data.act_info[5].act_rows[0];
-						console.log(data.category_detail.goods[0].img)
 						var tempData = baidu.template("tmp6",data);
 							
 						modle.html(tempData);
