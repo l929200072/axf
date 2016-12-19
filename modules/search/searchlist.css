@@ -1,0 +1,129 @@
+body{
+		width: 100%;
+	}
+.header1{
+	width: 100%;
+	height: 4.8rem;
+	line-height:4.8rem;
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0;
+	z-index: 11;
+	font-size: 4.5rem;
+	font-weight: 600;
+	background:#f9fafd url(../img/jleft.png) no-repeat 3% center;
+	background-size: 8% 60%;
+}
+
+.header1 input{
+	outline: none;
+	width: 63%;
+	border: 1px solid #e0e0e0;
+	height: 65%;
+	background: #f9fafd url(../img/inbg.png) no-repeat 2% center;
+	background-size: 6% 40%;
+	text-indent: 14%;
+	font-size: 4rem;
+	margin:  0 0 0 15%;
+}
+.header1 span{
+	font-size: 4rem;
+	font-weight: 100;
+	margin:  0 0 0 2%;
+	color: #999;
+}
+
+.main{
+	width: 96%;
+	margin: 4.8rem 2% 0 2%;
+}
+.md2l{
+	float: left;
+	margin: 1rem 2% 0 0;
+	width: 48%;
+	height: 25rem;
+	text-align: center;
+	text-indent: 0.5rem;
+	background: white;
+}
+.md2l .md2l1{
+	text-align: left;
+	width:100%;
+	height:15rem;
+	font-size: 4rem;
+	position: relative;
+	border-right: 1px solid #e0e0e0;
+	margin: 1rem 0 0 0;
+}
+.md2l .md2l1 a{
+	color: black;
+}
+.md2l .md2l1 .lsa2{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../img/a21.jpg) no-repeat center center;
+	background-size: 80% 100%;
+}
+.md2l .md2l1:nth-child(2){
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.md2l1 .lsd1{
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 2rem;
+	line-height: 2rem;
+}
+.md2l1 .lsd2{
+	margin: 0.5rem 0 0.5rem 0 ;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: left;text-indent: 0;
+}
+.md2l1 .lsd2 a{
+	border:1px solid red;
+	border-radius:0.4rem; 
+	display: inline-block;
+	padding: 0.2px;
+	font-size: 3.5rem;
+	color: red;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	margin: 0 0 0 0.5rem;
+}
+.md2l1 .lsd3{
+	height: 2rem;
+	line-height: 1.8rem;
+	border-radius:0.4rem; 
+}
+.md2l1 .lsd3 a{
+	color: #999;
+}
+.md2l1 .lsd4{
+	height: 2rem;
+	line-height: 1.8rem;
+	border-radius:0.4rem; 
+}
+.md2l1 .lsd4 a{
+	color: #f40;
+}
+.md2l1 .lsd4 span{
+	margin: 0 0 0 0.5rem;
+	text-decoration: line-through;
+	color: #999;
+}
+.md2l1 .md2jia{
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	border:1px solid #999;
+	top: 20rem;
+	right: 1rem;
+	background: #ff4300 url(../img/jia.png) no-repeat right center;
+	background-size: 200% 130%;
+}

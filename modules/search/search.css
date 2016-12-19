@@ -1,0 +1,76 @@
+body{
+		width: 100%;
+	}
+.header1{
+	width: 100%;
+	height: 4.8rem;
+	line-height:4.8rem;
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0;
+	z-index: 11;
+	font-size: 4.5rem;
+	font-weight: 600;
+	background:#f9fafd url(../img/jleft.png) no-repeat 3% center;
+	background-size: 8% 60%;
+}
+
+.header1 input{
+	outline: none;
+	width: 63%;
+	border: 1px solid #e0e0e0;
+	height: 65%;
+	background: #f9fafd url(../img/inbg.png) no-repeat 2% center;
+	background-size: 6% 40%;
+	text-indent: 14%;
+	font-size: 4rem;
+	margin:  0 0 0 15%;
+}
+.header1 span{
+	font-size: 4rem;
+	font-weight: 100;
+	margin:  0 0 0 2%;
+	color: #999;
+}
+
+.main{
+	margin: 4.8rem 0 0 0;
+	width: 100%;
+	padding: 0.1px;
+	font-size: 4rem;
+}
+.main .hot{
+	color: #888;
+	width: 90%;
+	margin:  3.5rem auto 1rem auto;
+}
+.main .mul1{
+	width: 90%;
+	height: 15rem;
+	margin: 0 auto;
+}
+ .mul1 li{
+ 	float: left;
+ 	padding:  0 1.5rem ;
+ 	background:white;
+ 	height: 3.5rem;
+ 	line-height: 3.5rem;
+ 	border-radius: 1.5rem;
+ 	margin: 0 1rem 1rem 0 ;
+ }
+ .main .qbtn{
+ 	width: 100%;
+ 	height: 5rem;
+ 	margin: -4rem 0 0 0;
+ }
+ .qbtn input{
+ 	display: block;
+ 	width: 80%;
+ 	height: 80%;
+ 	margin: 0 10% 0 10%;
+ 	font-size: 5rem;
+ 	color: #aaa;
+ 	border: solid 1px #e0e0e0;
+ 	background: none;
+ }

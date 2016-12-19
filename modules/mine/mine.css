@@ -1,0 +1,306 @@
+/*---------------header-----------------*/
+html{
+	font-size: 62.5%;/*10/16 = 62.5%*/
+}
+body{
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.wd_header{
+	width: 100%;
+	height: 15rem;
+	background: #ffd600;
+	position: relative;
+}
+.wd_header .wd_hdd1{
+	float: left;
+	width: 25%;
+	height: 15rem
+}
+.wd_header .wd_hdd1 a{
+	display: block;
+	width: 100%;
+	height: 80%;
+	background: url(img/wod1.png) no-repeat center center;
+	background-size: 75% 50%;
+}
+.wd_header .wd_hdd2{
+	float: left;
+	width: 50%;
+	height: 15rem;
+	padding: 0.1px;
+}
+.wd_hdd2 p{
+	width: 65%;
+	height: 20%;
+	margin: 17% 0 0 1rem;
+	color: white;
+	font-size: 4rem;
+	font-weight: 800;
+}
+.wd_hdd2 a{
+	display: block;
+	float: left;
+	width: 60%;
+	height: 25%;
+	line-height: 3.75rem;
+	margin:  -1rem 0 0 0rem;
+	background: url(img/womf.png) no-repeat center center;
+	background-size: 90% 70%;
+	font-size: 2rem;
+	font-weight: 600;
+	color: red;
+	text-align: center;
+	text-indent: 2rem;
+}
+.wd_header .wd_hdd3{
+	float: right;
+	width: 20%;
+	height: 15rem;
+	line-height:15rem
+}
+.wd_hdd3 a{
+	display: block;
+	width: 100%;
+	height: 5rem;
+	margin: 3rem 0 5rem 0 ;
+	background:url(img/wojj.png) no-repeat center center;
+	background-size: 20% 45%;
+}
+.wd_header .wd_hdd4{
+	width: 100%;
+	height: 4rem;
+	line-height: 4rem;
+	background: rgba(0,0,0,0.1);
+	position: absolute;
+	top: 11rem;
+}
+.wd_hdd4 div{
+	float: left;
+	width: 50%;
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;
+}
+.wd_hdd4 div a{
+	height: 2.5rem;
+	line-height: 2.5rem;
+	color: white;
+	font-size: 4rem;
+	display: block;
+	padding: 0 2.5rem 0 2.5rem;
+	margin: 0.8rem 0 0 0
+}
+.wd_hdd4 .wd_linea{
+	border-right:1px solid white;  
+	background: url(img/spsc.png) no-repeat 3rem center;
+	background-size: 12% 70%;
+}
+.wd_hdd4 .wd_nolinea{
+	background: url(img/wodsc.png) no-repeat 3rem center;
+	background-size: 12% 70%;
+}
+
+.wd_dingdan{
+	margin: 1rem 0 0 0;
+	width: 100%;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	background: white
+}
+.wd_dingdan p{
+	float: left;
+	width: 50%;
+}
+.wd_dingdan .wd_ddp1{
+	text-indent: 2rem;
+}
+.wd_dingdan .wd_ddp1 a{
+	color: black;
+	font-size: 4rem;
+}
+.wd_dingdan .wd_ddp2{
+	text-indent: 5rem;
+	font-size: 4rem;
+}
+.wd_dingdan .wd_ddp2 a{
+	color: #999;
+	font-size: 4rem;
+}
+/*-----------------待------------*/
+.wd_dai{
+	margin: 1px 0 0 0;
+	width: 100%;
+	height: 7rem;
+	background: white;
+	text-align: center;
+}
+.wd_dai div{
+	float: left;
+	width: 25%;
+	height: 7rem;
+}
+.wd_dai .wd_daia1{
+	display: block;
+	height: 60%;
+	background: url(img/wol1.png) no-repeat center center;
+	background-size: 23% 40%; 
+	font-size: 4rem;
+}
+.wd_dai1 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	font-weight: 700;
+ 	color: #333;
+}
+
+.wd_dai .wd_daia2{
+	display: block;
+	height: 60%;
+	background: url(img/wol2.png) no-repeat center center;
+	background-size: 23% 40%; 
+	font-size: 4rem;
+}
+.wd_dai2 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	font-weight: 600;
+ 	color: #333;
+}
+
+.wd_dai .wd_daia3{
+	display: block;
+	height: 60%;
+	background: url(img/wol3.png) no-repeat center center;
+	background-size: 23% 40%; 
+	font-size: 4rem;
+}
+.wd_dai3 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	font-weight: 600;
+ 	color: #333;
+}
+
+.wd_dai .wd_daia4{
+	display: block;
+	height: 60%;
+	background: url(img/wol4.png) no-repeat center center;
+	background-size: 23% 40%; 
+	font-size: 4rem;
+}
+.wd_dai4 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	font-weight: 600;
+ 	color: #333;
+}
+
+.wd_jifen{
+	width: 100%;
+	height: 10rem;
+	background: white;
+	margin: 1rem 0 0 0;
+	text-align: center;
+}
+.wd_jifen1{
+	width: 100%;
+	height: 10rem;
+	background: white;
+	margin: 1px 0 0 0;
+	text-align: center;
+}
+.wd_jifen div{
+	float: left;
+	width: 25%;
+	height: 10rem;
+}
+.wd_jifen1 div{
+	float: left;
+	width: 25%;
+	height: 10rem;
+}
+.wd_dai5 .wd_daia5{
+	display: block;
+	width: 100%;
+	height: 60%;
+	background: url(img/j1.png) no-repeat center center;
+	background-size: 43% 45%; 
+	font-size:4rem;
+}
+.wd_dai5 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	color: #333;
+}
+
+.wd_dai6 .wd_daia6{
+	display: block;
+	width: 100%;
+	height: 60%;
+	background: url(img/j2.png) no-repeat center center;
+	background-size: 43% 45%; 
+	font-size: 4rem;
+}
+.wd_dai6 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	color: #333;
+}
+
+.wd_dai7 .wd_daia7{
+	display: block;
+	width: 100%;
+	height: 60%;
+	background: url(img/j3.png) no-repeat center center;
+	background-size: 43% 45%; 
+	font-size: 4rem;
+}
+.wd_dai7 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	color: #333;
+}
+
+.wd_dai8 .wd_daia8{
+	display: block;
+	width: 100%;
+	height: 60%;
+	background: url(img/j4.png) no-repeat center center;
+	background-size: 43% 45%; 
+	font-size: 4rem;
+}
+.wd_dai8 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	color: #333;
+}
+
+.wd_dai9 .wd_daia9{
+	display: block;
+	width: 100%;
+	height: 60%;
+	background: url(img/j5.png) no-repeat center center;
+	background-size: 43% 45%; 
+	font-size: 4rem;
+}
+.wd_dai9 p a{
+ 	color: black;
+ 	font-size: 4rem;
+ 	color: #333;
+}
+
+.wd_tuichu{
+	width: 100%;
+	background: white;
+	height: 5rem;
+	line-height: 5rem;
+	margin: 2rem 0 1rem 0 ;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.wd_kongbai{
+	width: 100%;
+	height: 70px;
+}

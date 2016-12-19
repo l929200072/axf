@@ -1,0 +1,259 @@
+	body{
+		width: 100%;
+	}
+.header1{
+	width: 100%;
+	height: 4.8rem;
+	line-height:4.8rem;
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0;
+	z-index: 11;
+	font-size: 4rem;
+	font-weight: 600;
+	background: #f9fafd;
+}
+.main{
+	width: 100%;
+	padding: 0.1px;
+}
+.main table{
+	margin: 4.8rem 0 0 0;
+	width: 100%;
+	height: 10rem;
+	text-align: center;
+	font-size: 4rem;
+	border: 5px solid transparent;
+	border-image: url(../img/bk.png) 5 5 round;
+	background: white;
+}
+.main table tr td:nth-child(2){
+	width: 60%;
+	text-align: left;
+}
+.main table tr td:nth-child(1){
+	width: 25%;
+	text-align: left;
+	text-indent: 1rem;
+}
+.td3{
+	width: 15%;
+	text-align: left;
+	background: url(../img/tjj.png) no-repeat 100% center;
+	background-size: 40% 13%;
+}
+.wrap{
+	white-space: pre-wrap;
+}
+.ss{
+	width: 100%;
+	height: 8rem;
+	background: white;
+	margin: 3% 0 0 0;
+}
+.ss .ss1{
+	height:1rem;
+	line-height: 1rem;
+	float: left;
+	width: 30%;
+	border-left: 0.5rem solid #ffd600;
+	font-size: 4rem;
+	color: #999;
+	margin: 5% 0 0 4%;
+	text-indent: 0.5rem
+}
+.ss .ss2{
+	text-align: center;
+	height: 2.5rem;
+	line-height: 2rem;
+	float: right;
+	width: 20%;
+	font-size: 4rem;
+	color:#e64f1a;
+	border:  1px solid #ff3800;
+	border-radius: 1rem;
+	margin: 4% 4% 0 0 ;
+}
+.ss p{
+	font-size: 3.5rem;
+	color: #999;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	margin: 4% 0 0 4%;
+}
+.sh{
+	background: white;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 4rem;
+	border-top: 1px solid #e0e0e0;	
+	text-align: center;
+}
+.sh .spa1{
+	width: 25%;
+	float: left;
+}
+.sh .spa2{
+	width: 25%;
+	float: left;
+	color: #e64f1a;
+}
+.sh .spa3{
+	display: inline-block;
+	width: 18%;
+	float: right;
+	text-align: left;
+	background: url(../img/tjj.png) no-repeat 100% center;
+	background-size: 30% 22%;
+}
+
+
+.shou{
+	background: white;
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 4rem;
+	border-top: 1px solid #e0e0e0;	
+	text-align: center;
+}
+.shou .spa4{
+	width: 25%;
+	float: left;
+}
+
+.shou input{
+	height: 76%;
+	margin:2% 0 ; 
+	width: 70%;
+	float: left;
+	border-radius: 5px;
+	font-size: 4rem;
+	outline: none;
+	border: 1px solid #999;
+}
+.shangp1{
+	background: white;
+	height: 10rem;
+	font-size: 4rem;
+	border-top: 1px solid #e0e0e0;	
+	text-align: center;
+}
+.shangp1 .dui{
+	float: left;
+	width: 20%;
+	height: 100%;
+	line-height: 10rem;
+}
+.shangp1 .dui span{
+	display: block;
+	width: 100%;
+	height: 50%;
+	margin: 2.5rem 0 0 0;
+	background: url(../img/dui.png) no-repeat center center;
+	background-size: 31% 41%;
+}
+.shangp1 .dui2{
+	float: left;
+	width: 50%;
+	line-height: none;
+}
+.dui2 span{
+	display: block;
+	float: left;
+	width: 30%;
+	height: 10rem;
+	background: url(../img/milk.jpg) no-repeat center center;
+	background-size: 100% 55%;
+
+}
+.dui2 .dui2p{
+	float: left;
+	height: 5rem;
+	width: 60%;
+}
+.dui2p p{
+	height: 5rem;
+	line-height: 5rem;
+	text-align: left;
+	text-indent: 2rem;
+	font-size: 4rem;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.shangp1 .dui3{
+	float: left;
+	width: 28%;
+	height: 6rem;
+	line-height: 6rem;
+	margin: 2rem 0 2rem 0;
+}
+.dui3 .jian{
+	float: left;
+	width: 3rem;
+	height: 3rem;
+	margin: 1.5rem 0 0 0.2rem;
+	border:1px solid #999;
+	border-radius: 50%;
+	background:#ff4300  url(../img/jia.png) no-repeat 0.1px center;
+	background-size: 200% 100%;
+}
+.dui3 .jia{
+	float: right;
+	width: 3rem;
+	height: 3rem;
+	margin: 1.5rem 0 0 0.2rem;
+	border:1px solid #999;
+	border-radius: 50%;
+	background:red url(../img/jia.png) no-repeat -2.75rem center;
+	background-size: 200% 100%;
+}
+.dui3  .wd{
+	font-size: 5rem
+}
+
+
+.quanxuan{
+	background: white;
+	height: 5rem;
+	font-size: 4rem;
+	border-top: 1px solid #e0e0e0;	
+	text-align: center;
+}
+.quanxuan .dui{
+	float: left;
+	width: 20%;
+	height: 100%;
+	line-height: 10rem;
+}
+.quanxuan .dui .spquan{
+	float: left;
+	width: 100%;
+	height: 50%;
+	margin: 1.25rem 0 0 0;
+	background: url(../img/dui.png) no-repeat center center;
+	background-size: 31% 81%;
+}
+.quanxuan .qpw{
+	float: left;
+	width: 15%;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: left;
+	margin: 0 0 0 -3%;
+}
+.quanxuan .qpw2{
+	float: left;
+	width: 20%;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: left;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.quanxuan .ys{
+	float: right;
+	width: 30%;
+	height: 5rem;
+	line-height: 5rem;
+	text-align: center;
+	background: #ffd600;
+}

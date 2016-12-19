@@ -1,0 +1,219 @@
+html{
+	font-size: 62.5%;/*10/16 = 62.5%*/
+}
+body{
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.ss_main{
+	width: 100%;
+	height: 56.2rem;
+	margin: 4rem 0 0 0;
+	overflow: auto;
+	position: fixed;
+	padding: 0.1px;
+}
+/*-----------------mleft------------------------*/
+.ss_main .ss_mleft{
+	float: left;
+	height: 100%;
+	width: 20%;
+	background:rgba(246,246,246,.95);
+	overflow-y: auto;
+	overflow-x: hidden; 
+}
+.ss_mleft .ss_mleft_in{
+	width: 100%;
+}
+
+.ss_mleft .ss_mleft_in li{
+	text-align: center;
+	height: 4.5rem;
+	line-height: 4.5rem;
+	border-bottom: 0.5px solid #e0e0e0;
+}
+.ss_mleft_in .ss_fistli{
+	border-left: 8px solid #ffd600;
+}
+.ss_mleft_in .ss_hot{
+	background: url(img/hot.jpg) no-repeat top right;
+	background-size: 30% 60%;
+}
+.ss_mleft_in li a{
+	font-size: 4rem;
+	color: #6d6d6d;
+}
+
+/*-----------------mright------------------------*/
+.ss_main .ss_mright{
+	float: left;
+	width: 80%;
+	height: 100%;
+	background: white;
+	position: relative;
+}
+.ss_mright .ss_mright_in{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.ss_mright_in .ss_fenlei{
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem; 
+	font-size: 4rem;
+	text-align: center;
+	color: #777;
+	border-bottom: 1px solid #e0e0e0;
+	position:absolute; 
+	background: white;
+	opacity: 1;
+	z-index: 2
+}
+.ss_fenlei .ss_fenlei1{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.ss_fenlei span{
+	display: inline-block;
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	border-right:1px solid #e0e0e0;
+	background: url(img/xiajj.png) no-repeat 80% center;
+	background-size: 10% 25%;
+}
+.ss_fenlei .ss_fenlei2{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+/*-------------------------------*/
+.ss_mright_in .ss_mright_d{
+	width: 100%;
+	margin: 5rem 0 0 0;
+}
+.ss_mright_d .ss_rmdiv1{
+	width: 100%;
+	height: 10rem;
+}
+.ss_rmdiv1 .ss_remdleft{
+	float: left;
+	height: 10rem;
+	width: 40%;
+}
+
+/*--------------------ra-图片------------------------*/
+.ss_remdleft a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: url(img/rd1.jpg) no-repeat center center;
+	background-size: 90% 90%;
+}
+.ss_remdleft img{
+	height: 100%;
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid #e0e0e0
+}
+.ss_remdleft .ss_ra2{
+	background: url(img/ra2.jpg) no-repeat center center;
+	background-size: 90% 90%;
+}
+.ss_remdleft .ss_ra3{
+	background: url(img/ra3.jpg) no-repeat center center;
+	background-size: 90% 90%;
+}
+.ss_remdleft .ss_ra4{
+	background: url(img/ra4.jpg) no-repeat center center;
+	background-size: 90% 90%;
+}
+.ss_remdleft .ss_ra5{
+	background: url(img/ra5.jpg) no-repeat center center;
+	background-size: 90% 90%;
+}
+.ss_remdleft .ss_ra6{
+	background: url(img/ra6.jpg) no-repeat center center;
+	background-size: 90% 90%;
+}
+.ss_remdleft .ss_ra7{
+	background: url(img/ra7.jpg) no-repeat center center;
+	background-size: 90% 90%;
+}
+.ss_remdleft .ss_ra8{
+	background: url(img/ra8.jpg) no-repeat center center;
+	background-size: 90% 90%;
+} 
+
+
+.ss_rmdiv1 .ss_remdright{
+	float: right;
+	height: 10rem;
+	width: 60%;
+	position: relative;
+	border-bottom: 1px solid #e0e0e0
+}
+.ss_remdright a{
+	font-size: 4rem;
+	color: #333
+
+}
+.ss_remdright .ss_lsd1{
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 2rem;
+	line-height: 2rem;
+}
+.ss_remdright .ss_lsd2{
+	margin: 0.5rem 0 0.5rem 0 ;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: left;
+}
+.ss_remdright .ss_lsd2 a{
+	border:1px solid red;
+	border-radius:0.4rem; 
+	display: inline-block;
+	padding: 0.2px;
+	font-size: 3.5rem;
+	color: red;
+	height: 1.8rem;
+	line-height: 1.8rem;
+}
+.ss_remdright .ss_lsd3{
+	height: 2rem;
+	line-height: 1.8rem;
+	border-radius:0.4rem; 
+}
+.ss_remdright .ss_lsd3 a{
+	color: #999;
+}
+.ss_remdright .ss_lsd4{
+	height: 2rem;
+	line-height: 1.8rem;
+	border-radius:0.4rem; 
+}
+.ss_remdright .ss_lsd4 a{
+	color: #f40;
+}
+.ss_remdright .ss_lsd4 span{
+	margin: 0 0 0 0.5rem;
+	text-decoration: line-through;
+	color: #999;
+}
+.ss_remdright .ss_md2jia{
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	border:1px solid #999;
+	top: 60%;
+	right: 1rem;
+	background: #ff4300 url(img/jia.png) no-repeat right center;
+	background-size: 200% 130%;
+}

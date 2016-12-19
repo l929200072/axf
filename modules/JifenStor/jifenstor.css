@@ -1,0 +1,165 @@
+body{
+		width: 100%;
+	}
+.header1{
+	width: 100%;
+	height: 4.8rem;
+	line-height:4.8rem;
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0;
+	z-index: 11;
+	font-size: 4.5rem;
+	font-weight: 600;
+	background:#f9fafd url(../img/jleft.png) no-repeat 3% center;
+	background-size: 8% 60%;
+	border-bottom:1px solid #999;
+}
+.main{
+	width: 100%;
+	margin: 4.8rem 0 0 0;
+	padding: 0.1px;
+}
+.main .circle{
+	width: 100%;
+	height: 27rem;
+	padding: 0.1px;
+	background: white
+}
+.circle .bigcir{
+	text-align: center;
+	width: 15rem;
+	height: 15rem;
+	line-height: 15rem;
+	background: #ef592a;
+	margin: 2rem auto 0 auto;
+	border-radius: 50%;
+	padding: 0.1px;
+}
+.bigcir .smallcir{
+	width: 10.5rem;
+	height: 10.5rem;
+	line-height: 10.5rem;
+	background: #e13600;
+	border-radius: 50%;
+	margin: 2rem auto 0 auto;
+	padding: 0.1px;
+
+}
+.smallcir .whitecir{
+	width: 9rem;
+	height: 9rem;
+	background: white;
+	border-radius: 50%;
+	margin: 0.75rem auto 0 auto;
+}
+.whitecir .p1{
+	height: 50%;
+	line-height: 5.5rem;
+	font-size: 4rem;
+	color: #999;
+}
+.whitecir .p2{
+	height: 50%;
+	line-height: 1.5rem;
+	font-size: 6rem;
+	color: #e13600;
+	font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+}
+
+.circle .jfmingxi{
+	width: 100%;
+	height: 20rem;
+	margin: 2rem 0 0 0;
+}
+.jfmingxi div{
+	float: left;
+	width: 33.33%;
+	height: 8rem;
+	border-top: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+}
+.mxleft1 .pimg1{
+	width: 100%;
+	height: 80%;
+	background: url(../img/mx1.png) no-repeat center center;
+	background-size: 25% 40%;
+}
+
+.jfmingxi .word{
+	text-align: center;
+	height: 20%;
+	line-height: 100%;
+	margin: -1rem 0 0 0;
+	font-size: 4rem;
+	color: #999
+}
+.mxleft2 .pimg2{
+	width: 100%;
+	height: 80%;
+	background: url(../img/mx2.png) no-repeat center center;
+	background-size: 25% 40%;
+}
+.mxleft3 .pimg3{
+	width: 100%;
+	height: 80%;
+	background: url(../img/m3.png) no-repeat center center;
+	background-size: 25% 40%;
+}
+
+.main .yquan{
+	margin: 1rem 0 0 0;
+	width: 100%;
+	height: 32rem;
+	background: white;
+}
+.yquan .yuandiv1{
+	float: left;
+	width: 50%;
+	height: 15rem;
+	border-bottom: 0.5px solid #999;
+	border-right: 0.5px solid #999;
+	text-align: center;
+}
+.yuandiv1>a{
+	display: block;
+	width: 100%;
+	height: 55%;
+	background: url(../img/3y.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.yuandiv1 a{
+	color: black;
+}
+.yuandiv1 .p1{
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 4rem;
+	height: 2rem;
+	line-height: 2rem;
+}
+.yuandiv1 .p2{
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 4rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+.p2 a{
+	color: #e64f1a;
+}
+.yuandiv1 .ya2{
+	background: url(../img/5y.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.yuandiv1 .ya3{
+	background: url(../img/8y.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.yuandiv1 .ya4{
+	background: url(../img/10y.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}

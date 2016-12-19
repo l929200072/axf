@@ -1,0 +1,73 @@
+<!-- 模板1 -->
+<script id = "tmp1" type="text/html">
+	<div class="sy_slider">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			    <%for(var i=0;i<act_rows.length;i++){%>
+				    <div class="swiper-slide"><img src="<%=act_rows[i].activity.img%>"></div>
+			    <%}%>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+</script>
+
+
+<!-- 模板2 -->
+<script id = "tmp2" type="text/html">
+	<ul >
+	 <%for(var i=0;i<act_rows.length;i++){%>
+		<li>
+			<img class="lazy" src="<%=act_rows[i].activity.img%>">
+			<p><a href = "#" ><%=act_rows[i].activity.name%></a></p>
+		</li>
+	<%}%>
+	<ul>
+</script>
+
+
+<!-- 模板3 -->
+<script id = "tmp3" type="text/html">
+	 <%for(var i=0;i<3;i++){%>
+		<li><a href ="###"><img class="lazy"  data-original="<%=act_rows[i].activity.img%>"></a></li>
+	<%}%>
+</script>
+
+
+<!-- 模板4 -->
+<script id = "tmp4" type="text/html">
+	 <%for(var i=0;i<act_rows.length;i++){%>
+		<li><a href = "###"><img class="lazy" data-original="<%=act_rows[i].cicons_detail.img%>"></a><p><a href = "###"><%=act_rows[i].cicons_detail.name%></a></p></li>
+	<%}%>
+</script>
+
+
+<!-- 模板6 -->
+<script id = "tmp5" type="text/html">
+	 <%for(var i=0;i<act_rows.length;i++){%>
+		<li><a href = "###"><img class="lazy" data-original="<%=act_rows[i].activity.img%>"></a></li>
+	<%}%>
+</script>
+
+
+<!-- 模板6 -->
+<script id = "tmp6" type="text/html">
+		<li><a href = "###"><img class="lazy" data-original="<%=activity.img%>"></a></li>
+</script>
+
+
+<!-- tmp7 首页6个图片列表块 -->
+<script id = "tmp7" type="text/html">
+	<%for(var i =0;i<goods.length;i++){%>
+		<div class="sy_md2l1" >
+		<a href = "###" class="sy_lsa"><img class="lazy" data-original="<%=goods[i].img%>"></a>
+		<div class="sy_lsd1"><a href = "###"><%=goods[i].name%></a></div>
+		<div class="sy_lsd2"><a href = "###">精选</a></div>
+		<div class="sy_lsd3"><a href = "###"><%=goods[i].specifics%></a></div>
+		<div class="sy_lsd4"><a href = "###">￥<%=goods[i].price%><span>￥16.8</span></a></div>
+		<div class="sy_lsd5"></div>
+		<div class="sy_md2jia"><a href = "###"></a></div>
+		</div>
+	<%}%>
+</script>
+
