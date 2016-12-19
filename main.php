@@ -1,9 +1,16 @@
+<?php
+require_once "jssdk.php";
+// appId  和 秘钥
+$jssdk = new JSSDK("wx255b91dc43b0f548", "fc82f0f7f1a6075af3f98eec0294a272");
+$signPackage = $jssdk->GetSignPackage();
+?>
  <!DOCTYPE html>
 <html style="font-size: 4.14px;">
 	<head>
-		<meta charset = "utf-8">
 		<title>爱鲜蜂</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<script type = "text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 		<link rel ="stylesheet" href= "css/commen.css">
 		<link rel ="stylesheet" href= "css/swiper.min.css">
 		<script type = "text/javascript" src="js/jquery-1.11.0.js"></script>
@@ -44,4 +51,48 @@
 		</div>
 	</body>
 		<script type = "text/javascript" src="js/commen.js"></script>
+		<script>
+
+  wx.config({
+    debug: true,
+    appId: '<?php echo $signPackage["appId"];?>',
+    timestamp: <?php echo $signPackage["timestamp"];?>,
+    nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+    signature: '<?php echo $signPackage["signature"];?>',
+     jsApiList: [
+        'checkJsApi',
+        'onMenuShareWeibo',
+        'onMenuShareQZone',
+        'hideMenuItems',
+        'showMenuItems',
+        'hideAllNonBaseMenuItem',
+        'showAllNonBaseMenuItem',
+        'translateVoice',
+        'startRecord',
+        'stopRecord',
+        'onVoiceRecordEnd',
+        'playVoice',
+        'onVoicePlayEnd',
+        'pauseVoice',
+        'stopVoice',
+        'uploadVoice',
+        'downloadVoice',
+        'chooseImage',
+        'previewImage',
+        'uploadImage',
+        'downloadImage',
+        'getNetworkType',
+        'openLocation',
+        'getLocation',
+        'hideOptionMenu',
+        'showOptionMenu',
+        'closeWindow',
+        'scanQRCode',
+        'chooseWXPay',
+        'openProductSpecificView',
+        'addCard',
+        'chooseCard',
+        'openCard'
+      ]
+  });
 </html>
