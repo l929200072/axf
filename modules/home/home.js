@@ -254,9 +254,9 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 			        a = longitude;
 			        b = latitude;
 					
-			    }
 			    alert("经度"+a);
 				alert("纬度"+b);
+			    }
 			});
 			wx.openLocation({
 				    latitude: 0, // 纬度，浮点数，范围为90 ~ -90
