@@ -5,7 +5,7 @@ $jssdk = new JSSDK("wx255b91dc43b0f548", "fc82f0f7f1a6075af3f98eec0294a272");
 $signPackage = $jssdk->GetSignPackage();
 ?>
  <!DOCTYPE html>
-<html style="font-size: 4.14px;">
+<html style="font-size:16px;">
 	<head>
 		<title>爱鲜蜂</title>
 		<meta charset = "utf-8">
