@@ -1,5 +1,6 @@
 define(["text!./home.html","css!./home.css"], function(homePage,temp){
 		//定位
+		console.log($("#position").get())
 		$("#position").on("click",function(){
 			wx.getLocation({
 			    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
