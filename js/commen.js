@@ -1,33 +1,33 @@
-(function (doc, win) {
-var docEl = doc.documentElement,
-resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-recalc = function () {
-var clientWidth = docEl.clientWidth;
-if (!clientWidth) return;
-if(clientWidth>=1025){
-docEl.style.fontSize = '10px';
-}else{
-	if(clientWidth == 414){
-		docEl.style.fontSize = (clientWidth / 100) + 'px';
-	}else if(clientWidth == 375){
-		docEl.style.fontSize = (clientWidth / 100) + 'px';
-	}else if(clientWidth == 320){
-		docEl.style.fontSize = (clientWidth / 100) + 'px';
-	}else if(clientWidth == 412){
-		docEl.style.fontSize = (clientWidth / 100) + 'px';
-	}else if(clientWidth == 360){
-		docEl.style.fontSize = (clientWidth / 100) + 'px';
-	}else if(clientWidth == 736){
-		docEl.style.fontSize = (clientWidth / 150) + 'px';
-	}else if(clientWidth == 769){
-		docEl.style.fontSize = (clientWidth / 100) + 'px';
-	}
-}
-};
-if (!doc.addEventListener) return;
-win.addEventListener(resizeEvt, recalc, false);
-doc.addEventListener('DOMContentLoaded', recalc, false);
-})(document, window);
+// (function (doc, win) {
+// var docEl = doc.documentElement,
+// resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+// recalc = function () {
+// var clientWidth = docEl.clientWidth;
+// if (!clientWidth) return;
+// if(clientWidth>=1025){
+// docEl.style.fontSize = '10px';
+// }else{
+// 	if(clientWidth == 414){
+// 		docEl.style.fontSize = (clientWidth / 100) + 'px';
+// 	}else if(clientWidth == 375){
+// 		docEl.style.fontSize = (clientWidth / 100) + 'px';
+// 	}else if(clientWidth == 320){
+// 		docEl.style.fontSize = (clientWidth / 100) + 'px';
+// 	}else if(clientWidth == 412){
+// 		docEl.style.fontSize = (clientWidth / 100) + 'px';
+// 	}else if(clientWidth == 360){
+// 		docEl.style.fontSize = (clientWidth / 100) + 'px';
+// 	}else if(clientWidth == 736){
+// 		docEl.style.fontSize = (clientWidth / 150) + 'px';
+// 	}else if(clientWidth == 769){
+// 		docEl.style.fontSize = (clientWidth / 100) + 'px';
+// 	}
+// }
+// };
+// if (!doc.addEventListener) return;
+// win.addEventListener(resizeEvt, recalc, false);
+// doc.addEventListener('DOMContentLoaded', recalc, false);
+// })(document, window);
 
 /*//页面进入加载底部footer top位置
 ;(function(){
