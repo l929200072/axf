@@ -242,6 +242,8 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 			//定位
 		console.log($("#psTion").get());
 		$("#psTion").off().on("click",function(){
+			var a ;
+			var b ;
 			wx.getLocation({
 			    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
 			    success: function (res) {
@@ -249,10 +251,21 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 			        var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
 			        var speed = res.speed; // 速度，以米/每秒计
 			        var accuracy = res.accuracy; // 位置精度
-					alert("经度"+longitude);
-					alert("纬度"+latitude);
+			        a = longitude;
+			        b = latitude;
+					
 			    }
+			    alert("经度"+a);
+				alert("纬度"+b);
 			});
+			wx.openLocation({
+				    latitude: 0, // 纬度，浮点数，范围为90 ~ -90
+				    longitude: 0, // 经度，浮点数，范围为180 ~ -180。
+				    name: '', // 位置名
+				    address: '', // 地址详情说明
+				    scale: 1, // 地图缩放级别,整形值,范围从1~28。默认为最大
+				    infoUrl: '' // 在查看位置界面底部显示的超链接,可点击跳转
+				});
 		});
 			// 	//开场动画
 			var t = setTimeout(time1, 2000);
