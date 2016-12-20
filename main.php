@@ -18,7 +18,7 @@ $signPackage = $jssdk->GetSignPackage();
 		<script data-main ="app.js"  type = "text/javascript" src="js/require.js"></script>
 	</head>
 	<body>
-		<!--<input type= "button" value = "weidu" id ="inp1"> -->
+		
 		 <div class="main">
 			<div class = "home"></div>
 			<div class = "market"></div>
@@ -27,7 +27,7 @@ $signPackage = $jssdk->GetSignPackage();
 		</div>
 		<div id = "container"></div>
 
-	 =============末尾空白DIV================ -->
+	<!-- =============末尾空白DIV================ -->
 			 <div class="kongbai">
 			</div>
 		<div class="footer" id ="fter">
