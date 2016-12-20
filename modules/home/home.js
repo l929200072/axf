@@ -200,6 +200,7 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 						//第16个模块
 						;(function(){
 						var modle = $("#rDivFirstList5");
+						console.log(modle.get());
 						var data = a.data.act_info[5].act_rows[4].category_detail;
 						var tempData = baidu.template("tmp7",data);
 						modle.html(tempData);
@@ -230,8 +231,8 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 			});
 	
 		//定位
-		console.log($("#position").get());
-		$("#position").on("click",function(){
+		console.log($("#psTion").get());
+		$("#psTion").on("click",function(){
 			wx.getLocation({
 			    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
 			    success: function (res) {
