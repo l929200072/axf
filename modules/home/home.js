@@ -253,9 +253,8 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 			        var accuracy = res.accuracy; // 位置精度
 			        a = longitude;
 			        b = latitude;
-					
-			 //    alert("经度"+a);
-				// alert("纬度"+b);
+				    alert("经度"+a);
+					alert("纬度"+b);
 			    }
 			});
 		// 	wx.openLocation({
@@ -275,6 +274,7 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 
 		}
 	}
+});
 });
 
 
