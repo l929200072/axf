@@ -230,9 +230,18 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 				}
 			});
 	
-		//定位
+		
+	
+	return {
+		innit:function(){
+			if($(".home").children().size()>0){
+				$(".home").show().siblings("div").hide();
+			}else{
+				$(".home").html(homePage).show().siblings("div").hide();
+			}
+			//定位
 		console.log($("#psTion").get());
-		$("#psTion").on("click",function(){
+		$("#psTion").off.on("click",function(){
 			wx.getLocation({
 			    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
 			    success: function (res) {
@@ -245,14 +254,6 @@ define(["text!./home.html","css!./home.css"], function(homePage,temp){
 			alert("经度"+longitude);
 			alert("纬度"+latitude);
 		});
-	
-	return {
-		innit:function(){
-			if($(".home").children().size()>0){
-				$(".home").show().siblings("div").hide();
-			}else{
-				$(".home").html(homePage).show().siblings("div").hide();
-			}
 			// 	//开场动画
 			var t = setTimeout(time1, 2000);
 			function time1(){
