@@ -18,8 +18,8 @@ $signPackage = $jssdk->GetSignPackage();
 		<script data-main ="app.js"  type = "text/javascript" src="js/require.js"></script>
 	</head>
 	<body>
-		<input type= "button" value = "weidu" id ="inp1">
-		<!-- <div class="main">
+		<!--<input type= "button" value = "weidu" id ="inp1"> -->
+		 <div class="main">
 			<div class = "home"></div>
 			<div class = "market"></div>
 			<div class = "order"></div>
@@ -27,8 +27,8 @@ $signPackage = $jssdk->GetSignPackage();
 		</div>
 		<div id = "container"></div>
 
-	<!-- =============末尾空白DIV================ -->
-			<div class="kongbai">
+	 =============末尾空白DIV================ -->
+			 <div class="kongbai">
 			</div>
 		<div class="footer" id ="fter">
 			<ul>
@@ -49,22 +49,22 @@ $signPackage = $jssdk->GetSignPackage();
 					<div class="f_div1"><a href ="#mine">我的</a></div>
 				</li>
 			</ul>
-		</div> -->
+		</div> 
 	</body>
 		<script type = "text/javascript" src="js/commen.js"></script>
 		<script>
-		document.getElementById("inp1").onclick = function(){
-			wx.getLocation({
-    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
-    success: function (res) {
-        var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
-        var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
-        var speed = res.speed; // 速度，以米/每秒计
-        var accuracy = res.accuracy; // 位置精度
-        alert("X"+latitude);
-        alert("X"+longitude);
-    }
-});
+// 		document.getElementById("inp1").onclick = function(){
+// 			wx.getLocation({
+//     type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
+//     success: function (res) {
+//         var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+//         var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+//         var speed = res.speed; // 速度，以米/每秒计
+//         var accuracy = res.accuracy; // 位置精度
+//         alert("X"+latitude);
+//         alert("X"+longitude);
+//     }
+// });
 		}
   wx.config({
     debug: true,
